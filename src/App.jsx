@@ -22,15 +22,15 @@ const App = () => {
       <div className="container mx-auto px-8">
 
       {/* <Navbar /> */}
-      <SideNav/>
+      {/* <SideNav/> */}
       <Navbar/>
       <Outlet/>
-      {/* <Hero/>
+      {/* <Hero/> */}
       <About/>
       <Technologies/>
       <Experience/>
       <Projects/>
-      <Contact/> */}
+      <Contact/>
       </div>
     </div>
   )
