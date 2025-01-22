@@ -16,6 +16,13 @@ export const EXPERIENCES = [
     technologies: ["Figma", "Javascript", "Php", "HTML", "CSS"],
   },
   {
+    year: "2023",
+    role: "Fullstack Developer",
+    company: "Freelance (Remote)",
+    description: `Developed full-stack web applications utilizing modern JavaScript frameworks, ensuring high performance and user engagement.Architected and implemented robust database solutions using MongoDB, optimizing data storage and retrieval.Collaborated with product managers to prioritize features and plan the product roadmap effectively.Delivered comprehensive end-to-end solutions, guiding projects from initial concept through to deployment.Implemented responsive designs that ensure seamless cross-browser compatibility, enhancing the user experience across devices.`,
+    technologies: ["Nodejs", "Reactjs", "PHP", "Sqlite"],
+  },
+  {
     year: "2022 - 2023",
     role: "Frontend Developer",
     company: "Betagon Solutionss",
@@ -23,35 +30,29 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Figma"],
   },
   {
-    year: "2022 - 2023",
+    year: "2022",
     role: "Frontend Developer",
     company: "Skytechnologies",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["Figma", "Tailwindcss", "Reactjs", "JavaScript"],
   },
-  // {
-  //   year: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
+
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real-time Chat Service",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Real-time chat application with user authentication and message persistence",
+    technologies: ["Node.js", "WebSocket(Socket.io)", "MongoDB"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A web platform for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    technologies: ["HTML", "CSS", "Reactjs", "Postgress"],
   },
   {
     title: "Portfolio Website",
@@ -65,7 +66,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "Reactjs", "Express", "Postgress"],
   },
 ];
 

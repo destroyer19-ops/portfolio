@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className=' mb-5 flex justify-between py-6 items-center'>
         <div className="flex flex-shrink-0 items-center">
           
-          <AiOutlineMenu onClick={() => setMenu(true)}  size={20} className='fill-white text-3xl cursor-pointer md:hidden'/>
+          {/* <AiOutlineMenu onClick={() => setMenu(true)}  size={20} className='fill-white text-3xl cursor-pointer md:hidden'/> */}
             {/* <img className='mx-2 w-10' src={logo} alt="" /> */}
         </div>
         <div className='m-8 flex items-center gap-4 justify-center text-2xl'>
